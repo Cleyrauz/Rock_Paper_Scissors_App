@@ -31,17 +31,17 @@ class Game
       if player_choice == computer_choice
         return "We got the same! Let's try again"
       elsif player_choice == "rock" && computer_choice == "scissors"
-        return "The rock win!"
+        return "Player wins by playing #{player_choice}!"
       elsif player_choice == "scissors" && computer_choice == "rock"
-        return "The rock win!"
+        return "The computer wins by playing #{computer_choice}!"
       elsif player_choice == "paper" && computer_choice == "rock"
-        return "The paper win!"
+        return "Player wins by playing #{player_choice}!"
       elsif player_choice == "rock" && computer_choice == "paper"
-        return "The paper win!"
+        return "The computer wins by playing #{computer_choice}!"
       elsif player_choice == "paper" && computer_choice == "scissors"
-        return "The scissors win!"
+        return "The computer wins by playing #{computer_choice}!"
       elsif player_choice == "scissors" && computer_choice == "paper"
-        return "The scissors win!"
+        return "Player wins by playing #{player_choice}!"
       end
     end
   end
