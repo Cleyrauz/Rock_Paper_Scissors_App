@@ -3,10 +3,6 @@ require_relative '../models/game'
 
 class TestGame < Minitest::Test
 
-  # def setup
-  #    @player_choice = Game.new("paper","scissors")
-  #  end
-
   def setup
     @game = Game.new( "paper", "scissors" )
   end

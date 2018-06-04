@@ -10,3 +10,11 @@ get '/play/:player_choice/:computer_choice' do
   @result = game.play()
   erb( :result )
 end
+
+get '/' do
+  erb (:home )
+end
+
+get '/rules' do
+  erb( :rules)
+end
