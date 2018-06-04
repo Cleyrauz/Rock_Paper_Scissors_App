@@ -13,7 +13,7 @@ class Game
 
     if (player_choice == "rock" || player_choice == "paper" || player_choice == "scissors")
       if player_choice == computer_choice
-        return "We got the same! Let's try again"
+        return "Both got the same! Let's try again"
       elsif player_choice == "rock" && computer_choice == "scissors"
         return "Player wins by playing #{player_choice}!"
       elsif player_choice == "scissors" && computer_choice == "rock"

@@ -8,7 +8,7 @@ class TestGame < Minitest::Test
   end
 
   def test_play_works
-    assert_equal("The scissors win!", @game.play)
+    assert_equal("The computer wins by playing scissors!", @game.play)
   end
 
 end
